@@ -30,7 +30,7 @@ function pulseBackgroundred() {
 async function getData() {
 const questionId = randomNumber();
   // Declare a variable to store the HTTP response
-  const response = await fetch(`http://localhost:8800/quiz/${questionId}`, {
+  const response = await fetch(`https://revisionquiz.onrender.com/quiz/${questionId}`, {
     headers: {
       Accept: "application/json",
     },
